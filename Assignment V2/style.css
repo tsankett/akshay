@@ -1,0 +1,124 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.body1 {
+    background-image: url(Veix-Goodbye-New-York-Color-1200.jpg);
+    background-size: 100% 100%;
+    padding: 80px;
+}
+#main {
+    border: solid 1px grey;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 200px 100px black;
+}
+#main1 {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+#aside1 {
+    /*    position: relative;*/
+    
+    text-align: left;
+    width: 100%;
+    height: 80%;
+    float: left;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#text1 {
+    margin-top: 400px;
+    /*    position: absolute;*/
+    
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+    font-family: sans-serif;
+    color: white;
+    font-size: 140px;
+}
+#aside1bottom {
+    clear: left;
+    border-top: 2px solid white;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textaside1bottom {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    margin: 1em;
+    overflow: hidden;
+}
+#main2 {
+    box-sizing: border-box;
+    border-style: none;
+    border-top-right-radius: 20px;
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+}
+#aside2 {
+    width: 100%;
+    height: 80%;
+    float: left;
+    overflow: auto;
+    display: flex;
+    /*      align-items: center;*/
+    /*  justify-content: center;*/
+    
+    flex-direction: column;
+    /*    position: relative;*/
+}
+#aside2text {
+    /*        justify-content:flex-start;*/
+    
+    align-self: flex-start;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.inside-text {
+    color: darkcyan;
+    font-family: serif;
+}
+.inside2-text {
+    color: gray;
+    font-family: serif;
+}
+#imageaside {
+    align-self: flex-end;
+    /*    justify-content: flex-end*/
+    /*    margin-top: 240px;*/
+    /*    margin-bottom: 0px;*/
+}
+.image5class {
+    max-width: 100%;
+    /*    bottom: 0;*/
+    /*    position: absolute;*/
+}
+#aside2bottom {
+    /*    clear: left;*/
+    
+    border-top: 2px solid black;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textaside2bottom {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: auto;
+}
